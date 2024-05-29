@@ -11,3 +11,15 @@ The Weather Forecast App is a web application built using p5.js and a weather AP
 # Technologies Used
 - p5.js: For creating the interactive elements and handling the user interface.
 - Weather API: To fetch weather data based on user input.
+
+# Installation
+1. Clone the repository:
+```javascript
+git clone https://github.com/ShubhRobotic/Weather-Api.git
+cd weather-forecast-app
+```
+2. Navigate to the project directory:
+```javascript
+ cd weather-forecast-app
+```
+4. Open index.html in your preferred web browser.
