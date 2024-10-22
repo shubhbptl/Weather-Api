@@ -13,7 +13,7 @@ function setup() {
 }
 
 function send_request(location){
-    fetch("https://api.weatherapi.com/v1/forecast.json?key=2ab733cdda8c459085d142124241405&q=" + location + "&days=6&aqi=yes&alerts=no").then(event =>{
+    fetch("https://api.weatherapi.com/v1/forecast.json?key=YOUR_API_KEY&q=" + location + "&days=6&aqi=yes&alerts=no").then(event =>{
     event.json().then((data) => getWeather(data));
   })
 }
